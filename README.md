@@ -202,13 +202,6 @@ protectors, 5 unlocked but the decrypted boot sector was not recognised.
 - dislocker is mounted single-threaded (FUSE `-s`), because some dislocker 0.7.x builds are not
   safe with concurrent FUSE threads.
 
-## Testing
-
-The script and the key tool have been run end to end against the public sample images from the
-[BitCracker](https://github.com/e-ago/bitcracker) project, converted to E01: Windows 7 and
-Windows 8 BitLocker To Go volumes (AES-128-CBC with and without the Elephant diffuser) and
-Windows 10 volumes (AES-128-CBC and XTS-AES-128), singly and combined on one multi-partition disk.
-Those samples all use the legacy KDF.
 
 ## License
 
